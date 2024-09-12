@@ -18,33 +18,33 @@ Este programa gera tempo e prioridades aleatoriamente para um conjunto de client
 
 ## Exemplos de uso
 
-**Definir parâmetros iniciais**
-N = 10            # Número de clientes
-CAPACIDADE = 100  # Capacidade máxima da mochila
-MIN_TP = 10       # Tempo mínimo dos clientes
-MAX_TP = 50       # Tempo máximo dos clientes
-MIN_PRI = 1       # Prioridade mínima dos clientes
-MAX_PRI = 5       # Prioridade máxima dos clientes
+**Definir parâmetros iniciais**  
+N = 10 *(Número de clientes)*  
+CAPACIDADE = 100 *(Capacidade máxima da mochila)*  
+MIN_TP = 10 *(Tempo mínimo dos clientes)*  
+MAX_TP = 50 *(Tempo máximo dos clientes)*  
+MIN_PRI = 1 *(Prioridade mínima dos clientes)*  
+MAX_PRI = 5 *(Prioridade máxima dos clientes)*  
 
-**Gerar os tempo e prioridades aleatórios dos clientes**
+**Gerar os tempo e prioridades aleatórios dos clientes**  
 tempo, prior = Gerar_Problema(N, MIN_TP, MAX_TP, MIN_PRI, MAX_PRI)
 
-**Criar a solução inicial**
+**Criar a solução inicial**  
 si = Solucao_Inicial(N, CAPACIDADE, tempo)
 
-**Avaliar a solução inicial**
-vi = Avalia(N, si, tempo, prior)
+**Avaliar a solução inicial**  
+vi = Avalia(N, si, tempo, prior)  
 
-print("Tempos: ", tempo)
-print("Prioridades: ", prior)
-print("Solução Inicial: ", si)
-print("Avaliação da Solução: ", vi)
+print("Tempos: ", tempo)  
+print("Prioridades: ", prior)  
+print("Solução Inicial: ", si)  
+print("Avaliação da Solução: ", vi)  
 
-**Exemplo de Saída:**
-Tempos:  [20 35 18 40 15 27 48 13 24 12]
-Prioridades:  [5 3 1 4 2 5 1 3 2 5]
-Solução Inicial: [0 1 0 0 1 1 0 1 0 1]
-Avaliação da Solução: 19
+**Exemplo de Saída:**  
+Tempos:  [20 35 18 40 15 27 48 13 24 12]  
+Prioridades:  [5 3 1 4 2 5 1 3 2 5]  
+Solução Inicial: [0 1 0 0 1 1 0 1 0 1]  
+Avaliação da Solução: 19  
 
 ## Como Executar:
 Certifique-se de ter o Python instalado.
@@ -55,8 +55,9 @@ python interface.py
 ```
 
 ## Requisitos:
-Python 3.x
-Bibliotecas numpy e random, que já estão incluídas no Python padrão.
+- Python 3.x  
+- Bibliotecas numpy e random, que já estão incluídas no Python padrão.
+
 Você pode instalar o numpy com o seguinte comando, se necessário:
 ```
 pip install numpy
