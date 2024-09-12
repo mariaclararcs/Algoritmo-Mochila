@@ -1,5 +1,5 @@
 # ALGORITMO MOCHILA
-Este é um programa em Python que resolve uma variação simples do problema da mochila, onde temos um conjunto de clientes a serem atendidos, cada um com seu tempo de atendimento e prioridade, e o objetivo é maximizar a prioridade total das pessoas que podem ser atendidas no período máximo de tempo determinado.
+Este é um programa desenvolvido em Python como atividade para a matéria de Programação Linear e Aplicações, que resolve uma variação simples do problema da mochila, onde temos um conjunto de clientes a serem atendidos, cada um com seu tempo de atendimento e prioridade, e o objetivo é maximizar a prioridade total das pessoas que podem ser atendidas no período máximo de tempo determinado.
 
 ## Descrição
 O problema da mochila consiste em escolher clientes de um conjunto, de modo que a soma dos seus tempos de atendimento não ultrapasse a capacidade máxima da "mochila", ou seja, que o total do tempo de atendimento aos clientes não ultrapasse a capacidade determinada, e ao mesmo tempo, a soma das prioridades dos clientes selecionados seja maximizada.
