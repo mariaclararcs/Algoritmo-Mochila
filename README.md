@@ -17,6 +17,7 @@ Este programa gera tempo e prioridades aleatoriamente para um conjunto de client
 - Avalia(n, s, pe, pr): Avalia a solução gerada com base nas prioridades dos clientes incluídos na mochila.
 
 ## Exemplos de uso
+
 **Definir parâmetros iniciais**
 N = 10            # Número de clientes
 CAPACIDADE = 100  # Capacidade máxima da mochila
@@ -49,10 +50,14 @@ Avaliação da Solução: 19
 Certifique-se de ter o Python instalado.
 Clone este repositório ou copie o código para seu ambiente local.
 Execute o programa em um terminal ou IDE Python com o comando:
-*python interface.py*
+```
+python interface.py
+```
 
 ## Requisitos:
 Python 3.x
 Bibliotecas numpy e random, que já estão incluídas no Python padrão.
 Você pode instalar o numpy com o seguinte comando, se necessário:
-*pip install numpy*
+```
+pip install numpy
+```
